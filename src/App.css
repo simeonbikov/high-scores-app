@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid blue;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.Sub-table {
+  border: 10px solid lightgreen;
+  width: 100%;
+  margin: 10px;
+}
+
+.Table-country-scores {
+  border: 1px solid black;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+.Table-score-line {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin: 0 10px;
+}
+
+.Table-cell {
+  text-align: right;
+  width: 50%;
+  padding: 15px;
+}
+
+.Table h1, h2 {
+  color: lightblue;
+}
+
+.Table h1 {
+  margin: 0 0 10px;
+}
+
+.Fonts-red {
+  color: darkred;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
