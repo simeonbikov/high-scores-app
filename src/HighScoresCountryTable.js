@@ -1,12 +1,11 @@
 import React from "react";
 
-const HighScoresCountryTable = (props, key) => {
+const HighScoresCountryTable = (props) => {
     return (
       <div className="Sub-table" key="key">
         <h2>HIGH SCORES: {props.name}</h2>
         <div className="Table-country-scores">
           {props.scores
-            .sort((a, b) => b.s - a.s)
             .map((player, index) => {
               return (
                 <div className="Table-score-line" key={index}>

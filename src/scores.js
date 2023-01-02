@@ -32,3 +32,16 @@ let allCountryScores = [
   ];
   
   export default allCountryScores;
+
+
+
+
+  // const sortedCountryScoresDesc = [...sortedCountriesAlphabet].map((country) =>
+  //   country.scores.sort((a, b) => b.s - a.s)
+  // );
+
+  // console.log(sortedCountryScoresDesc);
+
+  // const sortedCountryScoresAsc = [...sortedCountriesAlphabet].map((country) =>
+  //   country.scores.sort((a, b) => a.s - b.s)
+  // );

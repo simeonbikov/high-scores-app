@@ -1,10 +1,13 @@
-// import logo from './logo.svg';
-import "./App.css";
+// import SortButton from "./SortButton";
 import HighScoresMainTable from "./HighScoresMainTable";
+import "./App.css";
 
 function App() {
   return (
-    <HighScoresMainTable />
+    // <>
+    //   <SortButton />
+      <HighScoresMainTable />
+    // </>
   );
 }
 
